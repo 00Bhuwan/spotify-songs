@@ -1,0 +1,69 @@
+### Todo
+Popularity analysis
+Analyze distribution of track_popularity. Plot histogram and identify most and least popular tracks.
+
+Artist popularity ranking
+Find top 10 artists based on average track_popularity. Plot a bar chart.
+
+Genre vs popularity
+Compare average popularity across playlist_genre and playlist_subgenre using bar plots.
+
+Danceability vs energy relationship
+Create a scatter plot of danceability vs energy to see correlation.
+
+Tempo distribution
+Plot tempo distribution and identify common BPM ranges for songs.
+
+Mood analysis using valence
+Group songs into happy (valence > 0.6), neutral, and sad (valence < 0.4) and plot counts.
+
+Acoustic vs non-acoustic songs
+Compare acousticness values and classify songs as acoustic or non-acoustic.
+
+Instrumental vs vocal tracks
+Analyze instrumentalness and find how many tracks are likely instrumental.
+
+Loudness vs popularity
+Scatter plot loudness vs popularity and analyze if louder songs are more popular.
+
+Key and mode distribution
+Count how many songs are in each musical key and major/minor mode.
+
+Playlist genre danceability
+Compare average danceability across genres.
+
+Live vs studio tracks
+Use liveness to detect live tracks and compare popularity of live vs studio songs.
+
+Speechiness analysis
+Identify rap/spoken tracks using speechiness > 0.33 and plot genre distribution.
+
+Duration analysis
+Convert duration_ms to minutes and plot song length distribution.
+
+Album release trend
+Analyze number of albums released per year (extract year from track_album_release_date).
+
+Correlation heatmap
+Compute correlation matrix for audio features (danceability, energy, valence, tempo, etc.).
+
+Energy vs valence quadrants
+Classify songs into:
+
+Happy & Energetic
+
+Calm & Happy
+
+Angry & Energetic
+
+Sad & Calm
+Plot scatter with quadrant lines.
+
+Genre tempo comparison
+Compare average tempo across genres using boxplots.
+
+Most common playlists
+Find playlists with the most tracks and visualize top 10.
+
+Feature-based clustering (optional advanced)
+Use danceability, energy, valence, tempo to cluster songs (KMeans) and visualize clusters.
